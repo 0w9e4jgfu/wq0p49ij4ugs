@@ -312,6 +312,16 @@
 </div>
 <!-- End Preloader
 ==================================== -->
+
+
+<script !src="">
+    if (window.innerWidth < 768) {
+        alert("This website is not optimized for mobile devices. Please use a desktop or laptop computer.");
+    }
+    document.querySelector('.preloader').style.display = 'none';
+</script>
+
+
 <div class="container" id="container">
 <!--    <div onclick="debug_skipToResult()">Skip to Result</div>-->
         <h1><img src="../images/logo.png" alt="Website Logo" width="50%"/></h1>
